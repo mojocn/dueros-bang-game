@@ -1,0 +1,6 @@
+{
+  "require": {
+    "dueros/bot-sdk": "^2.1",
+    "predis/predis": "^1.1"
+  }
+}

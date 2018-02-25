@@ -1,0 +1,159 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "45a9c99ec7d46ba0f1bc47f920aa1624",
+    "packages": [
+        {
+            "name": "dueros/bot-sdk",
+            "version": "v2.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dueros/bot-sdk.git",
+                "reference": "72dba7cda6452061ecea52150056a8e49f73784d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/dueros/bot-sdk/72dba7cda6452061ecea52150056a8e49f73784d.zip",
+                "reference": "72dba7cda6452061ecea52150056a8e49f73784d",
+                "shasum": ""
+            },
+            "require": {
+                "monitor/bot-monitor": "^1.4",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Baidu\\Duer\\Botsdk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wangpeng",
+                    "email": "wangpeng20@baidu.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "yuanpeng",
+                    "email": "yuanpeng01@baidu.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "度秘bot开发的PHP SDK",
+            "keywords": [
+                "bot",
+                "duer"
+            ],
+            "time": "2018-01-15T04:24:11+00:00"
+        },
+        {
+            "name": "monitor/bot-monitor",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/tianyi17/BotMonitor.git",
+                "reference": "43bb09c2b7316f785bb080ee64f56fae6427cf0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/tianyi17%2FBotMonitor/repository/archive.zip?sha=43bb09c2b7316f785bb080ee64f56fae6427cf0e",
+                "reference": "43bb09c2b7316f785bb080ee64f56fae6427cf0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Baidu\\Apm\\BotMonitorsdk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "liudesheng",
+                    "email": "liudesheng01@baidu.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "bot监控的PHP SDK",
+            "keywords": [
+                "bot",
+                "monitor"
+            ],
+            "time": "2017-11-15T21:59:07+00:00"
+        },
+        {
+            "name": "predis/predis",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/nrk/predis/f0210e38881631afeafb56ab43405a92cafd9fd1.zip",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-curl": "Allows access to Webdis when paired with phpiredis",
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "time": "2016-06-16T16:22:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
