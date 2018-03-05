@@ -70,7 +70,7 @@ class Bot extends \Baidu\Duer\Botsdk\Bot
             $this->waitAnswer();
             return [
                 'card' => $card,
-                'outputSpeech' => '<speak><voice name="emo-as-LF">欢迎来和谢耳朵一起快活啊!</voice></speak>'
+                'outputSpeech' => '欢迎来和谢耳朵一起玩耍啊!'
             ];
 
         });
@@ -81,7 +81,7 @@ class Bot extends \Baidu\Duer\Botsdk\Bot
             return [
                 'card' => $card,
                 //'outputSpeech' => '<speak>欢迎光临</speak>'
-                'outputSpeech' => self::$zhName . self::$enName . '欢迎官人下次来玩啊!',
+                'outputSpeech' => self::$zhName . self::$enName . '欢迎下次来玩啊!',
             ];
         });
 
@@ -109,7 +109,7 @@ class Bot extends \Baidu\Duer\Botsdk\Bot
                         $this->redis->hincrby('lose', $uid, 1);
 
                     } else if ($yV === $bV) {
-                        $res = '英雄所见略同!,决战到天亮!';
+                        $res = '英雄所见略同! Great minds think alike!';
                         $speakTxt = "谢耳朵出的是:{$botOp},而您出的是:{$yourOp}.$res";
                         $this->redis->hincrby('tie', $uid, 1);
 
