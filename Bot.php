@@ -70,7 +70,7 @@ class Bot extends \Baidu\Duer\Botsdk\Bot
             $this->waitAnswer();
             return [
                 'card' => $card,
-                'outputSpeech' => '欢迎来和谢耳朵一起玩耍啊!'
+                'outputSpeech' => '欢迎来和谢耳朵来玩剪刀石头布.您可以说:我出剪刀,石头,布,蜥蜴,史派克,中的一个.'
             ];
 
         });
@@ -81,7 +81,7 @@ class Bot extends \Baidu\Duer\Botsdk\Bot
             return [
                 'card' => $card,
                 //'outputSpeech' => '<speak>欢迎光临</speak>'
-                'outputSpeech' => self::$zhName . self::$enName . '欢迎下次来玩啊!',
+                'outputSpeech' => '欢迎来和谢耳朵来玩:剪刀,石头,布,蜥蜴,史派克的游戏!',
             ];
         });
 
